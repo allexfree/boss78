@@ -1,0 +1,1 @@
+"use strict";!function(){var e=document.querySelector(".menu-burger__btn"),t=document.querySelector(".sidebar-menu");e.addEventListener("click",function(){-265===t.offsetLeft?(t.setAttribute("style","left: 0"),window.popupsmain.body.classList.add("modal-open")):(t.removeAttribute("style"),window.popupsmain.body.classList.remove("modal-open"))}),window.popupsmain}();
